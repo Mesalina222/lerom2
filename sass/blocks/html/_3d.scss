@@ -1,0 +1,35 @@
+.d {
+	padding: 20px 0;
+
+	&__content {
+		p:not(:last-of-type) {
+			margin: 20px 0;
+		}
+	}
+	&__text {
+		a:hover {
+			color: $mainColor;
+			text-decoration: underline;
+		}
+	}
+	&__btn {
+		display: block;
+		background-color: $mainColor;
+		width: 300px;
+		padding: 20px;
+		margin: 50px auto;
+		text-align: center;
+		border: none;
+		box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+		border-radius: 10px;
+		&:hover {
+			background-color: $mainColor2;
+			transition: all .4s;
+		}
+
+	}
+
+
+
+
+}

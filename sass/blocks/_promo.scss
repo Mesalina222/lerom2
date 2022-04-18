@@ -1,0 +1,81 @@
+.promo {
+	position: relative;
+	z-index: -1;
+	padding: 170px 124px 170px;
+	background: url('../img/Rectangle.jpg') center center/cover no-repeat;
+
+	&__content {
+		margin-left: 135px;
+		max-width: 460px;
+	}
+	&__title {
+		margin-bottom: 35px;
+		span {
+			text-decoration: overline;
+		}
+	}
+	&__subtitle {
+		a{
+			text-decoration: none;
+			color: #ffff;
+			&:hover {
+				color: $mainColor;
+			}
+		}
+		&:not(:last-of-type) {
+			margin-bottom: 35px;
+		}
+	}
+	&__statistic {
+		margin-top: 40px;
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 135px;
+	
+
+	}
+	&__item {
+		display: flex;
+		align-items: center;
+			margin-bottom: 20px;
+		&:not(:last-child) {
+			margin-right: 40px;
+		}
+
+		&-img {
+			background-color: #ffff;
+			width: 55px;
+			height: 55px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: 7px;
+			img {
+				max-width: 100%;
+			}
+			&:hover {
+				background-color: rgba(255, 255, 255, 0.5);
+				
+			}
+		}
+		&-title {
+			margin-bottom: 6px;
+		} 
+	}
+	&__cash {
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%); 
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		background-color: $mainColor2;
+		width: 92px;
+		height: 87px;
+		border: 1px solid #ffffff2a;
+		border-radius: 25px 0 0 25px;
+		animation: MyAnimation 5s infinite;
+	}
+}

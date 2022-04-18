@@ -1,0 +1,45 @@
+.new {
+	padding: 20px 0 0;
+	&__delivery {
+		&-block {
+			padding-bottom: 40px;
+			padding-left: 20px;
+			border: 1px dashed #bb272225;
+			border-radius: 40px;
+			&:hover {
+				background-color: #095ba30e;
+			}
+		}
+		&-title {
+			margin: 40px 0;
+		}
+		&-list {
+			padding-left:8px;
+			&:not(:last-child) {
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			&:before {
+				content: '\2022' ;
+				color: $mainColor;
+			}
+		}
+		&-text {
+			&:not(:last-child) {
+				margin-bottom: 20px;
+				margin-top: 20px;
+			}
+		}
+		span {
+			color:$mainColor;
+			text-transform: uppercase;
+		}
+	}
+
+
+	
+	
+
+
+
+}

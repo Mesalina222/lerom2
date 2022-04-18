@@ -1,0 +1,14 @@
+.video {
+	position: relative;
+	&__btn {
+		width: 212px;
+		height: 44px;
+		position: absolute;
+		left: 50%;
+		transform:translateX(-50%); 
+		bottom: 5%;
+		border: 1px solid #FFFFFF;
+		border-radius: 22px;
+		background: linear-gradient(0deg, rgba(0, 69, 131, 0.35), rgba(0, 69, 131, 0.35)), url(image.png);
+	}
+}

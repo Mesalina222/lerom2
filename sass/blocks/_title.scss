@@ -1,0 +1,89 @@
+.title-i {
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.25;
+	letter-spacing: -0.5px;
+	color: $mainDarkColor;
+	
+	&-color {
+		color: $mainColor2;
+	}
+	&-fff {
+		color:#ffff;
+		font-weight: 300;
+	}
+	&-fz17 {
+		font-size: 17px;
+		font-weight: 600;
+		color: #ffff;
+		&:hover {
+			color: $mainDarkColor;
+		}
+		&-color {
+			color: $mainDarkColor;
+			border-bottom: 1px solid #E7E6E6;
+		}
+
+	}
+	&-fz18 {
+		font-size: 18px;
+		font-weight: 400;
+		color: #ffff;
+		
+		&-black {
+			color: black;
+			}
+		&-bolt {
+			font-weight: 700;
+		}
+		&-color  {
+			color: $mainColor2;
+		}
+	}
+	&-fz20 {
+		font-size: 20px;
+		font-weight: 400;
+		color: $mainColor2;
+	}
+
+}
+
+.title-g {
+	font-family: Gilroy;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.25;
+	letter-spacing: -0.5px;
+	color: #ffff;
+	text-transform: uppercase;
+
+	&-fz24 {
+		font-size: 24px;
+		color: $mainDarkColor;
+	}
+	&-fz21 {
+		font-size: 21px;
+		font-weight: 600;
+	}
+	&-fz18 {
+		font-size: 18px;
+		font-weight: 500;
+		color: #000000;
+		text-align: center;
+	}
+
+	&-fz16 {
+		font-size: 16px;
+		font-weight: 400;
+		text-transform: none;
+		&-color {
+			color: $mainColor2;
+	}
+
+	}
+	
+	
+}

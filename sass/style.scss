@@ -1,0 +1,49 @@
+.contanier {
+	max-width: 1420px;
+	margin: 0 auto;
+	padding: 0 10px;
+	//border: 1px solid blue;
+}
+.wraper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+main, header {
+	flex: 1 1 auto;
+}
+footer {
+	flex: 0 0 auto;
+}
+
+@import "blocks/_variables.scss";
+
+@import "blocks/_null.scss";
+@import "blocks/_header.scss";
+@import "blocks/_title.scss";
+@import "blocks/_promo.scss";
+@import "blocks/_gallery.scss";
+@import "blocks/_video.scss";
+@import "blocks/_blog.scss";
+@import "blocks/_footer.scss";
+@import "blocks/_animation.scss";
+@import "blocks/_crumbs.scss";
+
+@import "blocks/html/_about.scss";
+@import "blocks/html/_tabs.scss";
+@import "blocks/html/_buyer.scss";
+@import "blocks/html/_modal.scss";
+@import "blocks/html/_3d.scss";
+@import "blocks/html/_new.scss";
+@import "blocks/html/_furniture.scss";
+@import "blocks/html/_contacts.scss";
+@import "blocks/html/_catalog.scss";
+@import "blocks/html/_wrapper.scss";
+
+
+
+
+
+
+@import "blocks/_media.scss";

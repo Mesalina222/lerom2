@@ -1,0 +1,80 @@
+.gallery {
+	&__flex {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+	}
+	&__card {
+		flex: 1 1 50%;
+		display: flex;
+		align-items: center;
+		border: 1px solid rgba(128, 128, 128, 0.151);
+	}
+	&__img {
+		flex: 1 0 50%;
+		//max-width: 360px;
+		//max-height: 321px;
+		width: 360px;
+		height: 321px;
+		img {
+			align-self: center;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			&:hover {
+				filter: opacity(70%);
+			}
+		}
+	}
+	
+	&__content {
+		flex: 1 1 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		margin-left: 10px;
+		margin-right: 10px;
+		div:not(:last-of-type) {
+			margin-bottom: 20px;
+		}
+	}
+	&__title {
+		a {
+			color: $mainDarkColor;
+			&:hover {
+				color: $mainColor2;
+				text-decoration: underline;
+			}
+		}
+	}
+	&__text {
+		span{
+			color: $mainColor;
+			text-transform: uppercase;
+		}
+	}
+
+	&__link {
+		margin-top: 15px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid $mainDarkColor;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		&:hover {
+			color: #ffff;
+			background-color: $mainColor2;
+		}
+		&-red:hover {
+			color: #ffff;
+			background-color: $mainColor;
+
+		}
+	}
+
+}

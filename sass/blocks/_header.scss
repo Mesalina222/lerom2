@@ -1,0 +1,116 @@
+.header {
+	padding: 7px 124px 9px;
+	&-none {
+		display: none;
+	}
+	&-top {
+		&__content {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 17px;
+			//border: 3px solid grey;
+		}
+
+		&__oclock {
+			flex: 1 1 33.333%;
+			//border: 1px solid red;
+		}
+
+		&__time {
+			background: url('../icons/oclock.svg') left no-repeat;
+			padding-left: 30px;
+			margin-bottom: 10px;
+			//border: 1px solid green;
+		}
+
+		&__adress {
+			background: url('../icons/Vector.svg') left no-repeat;
+			padding-left: 30px;
+		}
+
+		&__logo {
+			flex: 0 0 187px;
+
+			img {
+				max-width: 100%;
+			}
+		}
+
+		&__phone {
+			flex: 1 1 33.333%;
+			text-align: right;
+		}
+
+		&__link {
+			display: inline-block;
+			text-decoration: none;
+			color: #000000;
+
+			&:hover {
+				color: $mainColor;
+			}
+		}
+
+		&__sale {
+			margin-bottom: 10px;
+		}
+
+		&__local {
+			p {
+				color: $mainColor;
+			}
+		}
+	}
+
+	&-body {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+
+		&__menu {
+			flex: 1 1 calc(100% - 330px);
+		}
+
+		&__nav {
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+			//margin-right: 30px;
+			flex-wrap: wrap;
+		}
+		&__list {
+			margin-bottom: 10px;
+		}
+
+		&__link {
+			color: #000000;
+
+			&:hover {
+				color: $mainColor;
+			}
+		}
+
+		&__form {
+			position: relative;
+		}
+
+		&__input {
+			height: 35px;
+			width: 330px;
+			border: 1px solid $mainColor2;
+			box-sizing: border-box;
+			border-radius: 47px;
+			padding-left: 17px;
+		}
+
+		&__btn {
+			position: absolute;
+			border: none;
+			background: #ffff;
+			top: 7px;
+			right: 9px;
+			cursor: pointer;
+		}
+	}
+}

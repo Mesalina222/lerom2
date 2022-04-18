@@ -1,0 +1,20 @@
+.crumbs {
+	padding: 20px 16px;
+	list-style: none;
+	&__list {
+		display: inline;
+		font-size: 18px;
+	}
+	&__link {
+		color: $mainColor;
+		
+		&::after {
+			padding: 8px;
+			color: $mainColor;
+			content: "/\00a0";
+		}
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

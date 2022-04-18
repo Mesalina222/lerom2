@@ -1,0 +1,19 @@
+.buyer {
+	&__text {
+		text-align: center;
+		&:not(:last-of-type) {
+			margin-bottom: 20px;
+		}
+	}
+	&__link {
+		display: block;
+		margin: 0 auto;
+		text-decoration: underline;
+		color: $mainColor2;
+		margin-bottom: 20px;
+		&:hover {
+			color: $mainColor;
+			text-decoration: underline;	
+		}
+	}
+}

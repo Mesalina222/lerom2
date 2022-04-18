@@ -1,0 +1,29 @@
+.contacts {
+	padding: 20px 0;
+	&-title {
+		margin: 20px 0;
+	}
+	&__flex {
+		padding: 20px 0;
+		display: flex;
+		justify-content: center;
+	
+	}
+	&__row {
+		flex: 0 0 25%;
+		padding: 0 10px;
+		flex-wrap: wrap;
+		div:not(:last-of-type) {
+			margin-bottom: 8px;
+		}
+	}
+	&__tel {
+		display: block;
+	}
+	a {
+		&:hover {
+			color: $mainColor;
+			text-decoration: underline;
+		}
+	}
+}

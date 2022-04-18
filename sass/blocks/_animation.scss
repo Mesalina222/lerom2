@@ -1,0 +1,14 @@
+@keyframes MyAnimation
+{
+   from {color: $mainColor2}
+   50% {color: $mainColor}
+   to {color: $mainColor2}
+}
+
+@keyframes MyAnimation2
+{
+   from { background-color: $mainColor2}
+   50% { background-color: $mainColor}
+   to { background-color: $mainColor2}
+}
+
